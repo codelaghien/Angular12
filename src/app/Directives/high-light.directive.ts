@@ -9,7 +9,6 @@ export class HighLightDirective {
   constructor(private el: ElementRef) {}
 
   ngOnInit(): void {
-    console.log('ngOnInit HighLightDirective', this.appHighLight);
     this.el.nativeElement.style.color = this.appHighLight;
   }
 }
