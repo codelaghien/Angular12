@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HighLightDirective } from '../Directives/high-light.directive';
 
 @Component({
   selector: 'app-about',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   public loginName = 'admin';
+  public myColor = 'red';
 
   constructor() {}
 
