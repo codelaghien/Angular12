@@ -14,8 +14,8 @@ export class GetDataComponent implements OnInit {
       console.log('getComments', data);
     });
 
-    this.httpServerService.getRandomUsers(10).subscribe((data) => {
-      console.log('getRandomUsers', data.results);
-    });
+    // this.httpServerService.getRandomUsers(10).subscribe((data) => {
+    //   console.log('getRandomUsers', data.results);
+    // });
   }
 }
